@@ -1,1 +1,1 @@
-## This is the week 1 lab for Web App Development 2
+## This is the lab work for Web App Development 2
