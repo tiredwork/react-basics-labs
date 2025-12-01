@@ -47,6 +47,34 @@ div {
 
 .priority {
   font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Priority pill */
+.priority-ribbon {
+  display: block;
+  width: 95%;
+  margin: 10px auto;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.05em;
+  padding: 8px 0;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.08) inset;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* make sure class names match lowercase used in markup */
+.priority-ribbon.low {
+  background-color: #0a7a00;
+}
+.priority-ribbon.medium {
+  background-color: #d39e1e;
+}
+.priority-ribbon.high {
+  background-color: #e40000;
 }
 
 button {
@@ -102,4 +130,18 @@ form {
   text-align: left;
   width: 50%;
   margin: auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
